@@ -137,3 +137,32 @@ body {
     padding-right: 25px;
     border: 1px solid #fff;
 }
+
+.main {
+    height: 250px;
+    background-color: #fff;
+    margin-top: 5px;
+}
+
+.news {
+    width: 340px;
+    border: 1px solid #e8e8e8;
+    background-color: #ffff00;
+}
+
+.course {
+    width: 410px;
+    border: 1px solid #e8e8e8;
+    background-color: #ff312c;
+    margin: 0 7px;
+}
+
+.sidebar {
+    width: 230px;
+    background-color: #504eff;
+}
+
+.news, .course, .sidebar {
+    height: 250px;
+    float: left;
+}
