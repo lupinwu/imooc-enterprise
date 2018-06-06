@@ -23,6 +23,16 @@ body {
 .top-content li {
     list-style-image: url("../images/li_bg.gif");
     float: right;
-    width: 100px;
+    width: 70px;
     line-height: 27px;
+}
+
+.top-content a:link, .top-content a:visited {
+    color: #8e8e8e;
+    text-decoration: none;
+}
+
+.top-content a:hover, .top-content a:active {
+    color: #990000;
+    text-decoration: none;
 }
