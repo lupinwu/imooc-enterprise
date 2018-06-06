@@ -16,7 +16,7 @@ body {
 }
 
 .top-content {
-    width: 1000px;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -35,4 +35,38 @@ body {
 .top-content a:hover, .top-content a:active {
     color: #990000;
     text-decoration: none;
+}
+
+.wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 80px;
+    background-color: #fff;
+}
+
+.logo-left {
+    width: 200px;
+    float: left;
+}
+
+.logo-right {
+    width: 300px;
+    float: right;
+    height: 28px;
+    margin-top: 30px;
+    color: #8e8e8e;
+}
+
+.logo-right img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.tel {
+    font-family: "思源黑体 CN Normal";
+    font-size: 16px;
+    color: #cc0000;
 }
