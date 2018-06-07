@@ -147,22 +147,161 @@ body {
 .news {
     width: 340px;
     border: 1px solid #e8e8e8;
-    background-color: #ffff00;
 }
 
 .course {
     width: 410px;
     border: 1px solid #e8e8e8;
-    background-color: #ff312c;
     margin: 0 7px;
 }
 
 .sidebar {
     width: 230px;
-    background-color: #504eff;
 }
 
 .news, .course, .sidebar {
     height: 250px;
     float: left;
+}
+
+.title {
+    height: 35px;
+    border-bottom: 2px solid #e8e8e8;
+}
+
+.title-left {
+    width: 70%;
+    font-family: "Microsoft YaHei UI", serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #786f66;
+    float: left;
+    line-height: 35px;
+    padding-left: 20px;
+}
+
+.title-right {
+    width: 20%;
+    float: right;
+    line-height: 35px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.title-right a {
+    text-decoration: none;
+    color: #999999;
+}
+
+.pic-news {
+    height: 80px;
+    margin-top: 10px;
+    line-height: 22px;
+}
+
+.pic-news img, .course-pic img {
+    float: left;
+    margin: 0 5px;
+}
+
+.pic-news a, .course-pic a {
+    color: #cc0000;
+    text-decoration: none;
+}
+
+.news-list {
+    margin-top: 20px;
+}
+
+.news-list li {
+    list-style-type: none;
+    background: url("../images/list.jpg") no-repeat;
+    padding-left: 10px;
+    margin: 8px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.news-list a:link, .news-list a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+.news-list a:hover, .news-list a:active {
+    text-decoration: none;
+    color: #f00;
+}
+
+.news-list span {
+    color: #999999;
+    float: right;
+}
+
+.course-pic {
+    height: 120px;
+    margin-top: 10px;
+    line-height: 22px;
+}
+
+.course-type {
+    height: 37px;
+    width: 372px;
+    background: url("../images/product_type_bg.jpg") no-repeat;
+    margin: 20px auto;
+}
+
+.course-type li {
+    list-style-type: none;
+    float: left;
+    line-height: 37px;
+    margin: 0 15px;
+    text-align: center;
+
+}
+
+.video {
+    height: 185px;
+    border: 1px solid #e8e8e8;
+}
+
+.video-content {
+    height: 150px;
+}
+
+.sidebar-ad {
+    height: 55px;
+    border: 1px solid #e8e8e8;
+    margin-top: 10px;
+}
+
+.copyright {
+    width: 100%;
+    height: 200px;
+    background-color: #e8e8e8;
+    margin-top: 10px;
+}
+
+.copyright-content {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.copyright-content li {
+    list-style-type: none;
+    float: left;
+    width: 200px;
+    background: url("../images/line.png") no-repeat right center;
+    text-align: center;
+    line-height: 30px;
+    font-family: "Microsoft YaHei UI", serif;
+}
+
+.copyright-content a {
+    text-decoration: none;
+    color: #999999;
+    font-size: 18px;
+}
+
+.copyright-content li ul li a {
+    font-size: 14px;
 }
