@@ -327,6 +327,7 @@ body {
     _height: 350px;     /*for IE6*/
     border: 1px solid #e8e8e8;
     float: right;
+    background-color: #fff;
 }
 
 .news-type h2 {
@@ -394,4 +395,24 @@ body {
 .page a:hover, .page a:active {
     color: #000;
     background-color: #cc1b1b;
+}
+
+.list-box h1 {
+    font-family: "Microsoft YaHei UI", serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.list-box-newsInfo {
+    color: #666666;
+    text-align: center;
+    border-bottom: 1px dotted #666666;
+}
+
+.list-box-newsContent {
+    font-size: 14px;
+    padding: 20px;
+    line-height: 25px;
+    text-indent: 2em;
 }
